@@ -10,7 +10,7 @@ export default function Sidebar() {
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ex, nisi nesciunt repellendus neque distinctio laudantium dolor laboriosam</p>
            </div>
            <div className="sidebarItems">
-               <span className="sidebarTitle"> CATEGORIES </span>
+               <span className="sidebarTitle">CATEGORIES</span>
                <ul className="sidebarList">
                    <li className="sidebarListItems">LIFE</li>
                    <li className="sidebarListItems">MUSIC</li>
