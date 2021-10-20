@@ -13,8 +13,9 @@ export default function Post() {
             <span className="postTitle">Lorem ipsum dolor sit amet </span>
             <hr />
             <span className="postDate">1 hour ago</span>
-            <p className="postDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quasi sed nostrum soluta quia voluptates explicabo quae exercitationem provident reiciendis facere recusandae, animi facilis consectetur accusamus dolores. Ad, cum vitae veniam, beatae natus perspiciatis voluptatum perferendis, deserunt molestiae dolorum excepturi.</p>
+            
         </div>
+        <p className="postDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quasi sed nostrum soluta quia voluptates explicabo quae exercitationem provident reiciendis facere recusandae, animi facilis consectetur accusamus dolores. Ad, cum vitae veniam, beatae natus perspiciatis voluptatum perferendis, deserunt molestiae dolorum excepturi.</p>
         </div>
     )
 }
