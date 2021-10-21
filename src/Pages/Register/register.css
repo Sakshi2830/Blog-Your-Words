@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Lora:ital,wght@1,500&display=swap');
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255,0.5),
+        rgba(255, 255, 255,0.3),
+        rgba(255, 255, 255,0.2)
+    ),
+    url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+.registerTitle{
+    font-size: 50px;
+    margin-bottom: 20px;
+    align-self: center;
+    color:rgb(22, 65, 65);
+    border: 5px double rgba(17, 119, 119, 0.945);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 20px;
+    border: 5px double rgba(17, 119, 119, 0.945);
+    border-radius: 10px;
+    background: linear-gradient(
+        rgba(150, 211, 211, 0.637),
+        rgba(147, 182, 182, 0.658),
+        rgba(139, 201, 201, 0.616)
+    )
+    
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border:none;
+    border-radius: 8px 0px 8px 0px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(223, 105, 92);
+    color: white;
+    padding:10px ;
+    border-radius: 5px;
+    border: none;
+}
