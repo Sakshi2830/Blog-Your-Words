@@ -1,5 +1,6 @@
 import TopBar from "./components/Topbar/Topbar";
-import Setting from "./Pages/setting/Setting";
+import Login from "./Pages/Login/Login";
+// import Setting from "./Pages/setting/Setting";
 // import Home from "./Pages/Home/Home";
 // import Single from "./Pages/single/Single";
 // import Write from "./Pages/write/Write";
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
     <TopBar/>
-    <Setting/>
+    <Login/>
 
     </div>
   );
